@@ -27,7 +27,7 @@ export function printBill() {
     sectionToPrint.style.margin = "10px";
 
     printWindow.document.write(headerContent);
-    printWindow.document.write(`${sectionToPrint.outerHTML}`);
+    printWindow.document.write(`${sectionToPrint.outerHTML}</body>`);
 
     printWindow.document.close();
 
