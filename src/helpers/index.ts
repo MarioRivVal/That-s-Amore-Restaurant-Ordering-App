@@ -20,7 +20,7 @@ export function printBill() {
 
   if (sectionToPrint && printWindow) {
     const headerContent =
-      '<html><head><title>Print Bill</title><link rel="stylesheet" href="src/index.css"></head><body>';
+      '<html><head><title>Print Bill</title><link rel="stylesheet" href="src/index.css"/></head><body>';
 
     sectionToPrint.style.width = "284px";
     sectionToPrint.style.height = "fit-content";
